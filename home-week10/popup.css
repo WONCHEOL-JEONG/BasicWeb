@@ -1,0 +1,54 @@
+/* 팝업 전체 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    width: 300px; /* 팝업 너비 설정 */
+  }
+  
+  /* 텍스트 입력 영역 */
+  textarea {
+    width: 100%; /* 텍스트 영역 너비를 부모에 맞춤 */
+    height: 80px;
+    resize: none; /* 사용자가 텍스트 영역 크기 조정 못하도록 설정 */
+  }
+  
+  /* 버튼 스타일 */
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* 패딩 포함 너비 계산 */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 결과 출력 영역 */
+  .result {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    word-wrap: break-word; /* 긴 텍스트가 자동 줄바꿈 되도록 설정 */
+  }
+  
+  /* 제목 스타일 */
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center; /* 제목 가운데 정렬 */
+  }
+  
+  /* 팝업 크기 */
+  html, body {
+    min-height: 200px;
+    max-height: 400px;
+  }

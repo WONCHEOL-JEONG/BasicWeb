@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "말하기 전에 생각하셨나요?",
+    "version": "1.0",
+    "description": "사용자가 작성한 문장을 분석 및 번역합니다. 문장 분석은 문장의 맞춤법과 문장에 담긴 감정을 분석합니다. 문장 번역은 한글을 영어로 번역합니다.",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
